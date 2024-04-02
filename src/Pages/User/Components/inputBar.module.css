@@ -1,0 +1,11 @@
+.input-bar{
+	border: 0;
+	background: var(--c-light-green);
+	border-radius: 15px;
+	color: var(--c-dark-green);
+	padding-left: 10px;
+}
+.label-search{
+	display: grid;
+	place-content: center;
+}

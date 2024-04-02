@@ -1,0 +1,24 @@
+.message{
+	background: var(--c-white-green);
+	color: var(--c-dark-green);
+	max-width: 250px;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 10px;
+	align-self: start;
+}
+.message-owner{
+	background: var(--c-mid-green);
+	color: var(--c-white-green);
+	align-self: end;
+}
+.message-name-owner{
+	font-size: 11px;
+	color: var(--c-light-green);
+	text-align: start;
+}
+.message-name{
+	font-size: 10px;
+	color: var(--c-mid-green);
+	text-align: end;
+}

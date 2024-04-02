@@ -1,0 +1,21 @@
+.messages-section{
+	display: flex;
+	flex-direction: column;
+	height: 72vh;
+	overflow-y: scroll;
+}
+
+.input-section{
+	margin-top: 5px;
+	height: 5vh;
+}
+
+@media (max-width: 800px) {
+	.messages-section{
+		display: flex;
+		flex-direction: column;
+		height: 78vh;
+		overflow-y: scroll;
+	}
+	
+}

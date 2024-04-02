@@ -1,0 +1,18 @@
+.room-layout{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+	.room-layout{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+@media (max-width: 700px) {
+	.room-layout{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+	--c-dark-green: #152A38;
+	--c-mid-green: #29435C;
+	--c-light-green: #638889;
+	--c-white-green: #D1D4C9;
+	--c-red: #D04848;
+	--f-quicks: "Quicksand";
+
+	--c-white-green-o: #D1D4D1;
+	font-family: var(--f-quicks);
+}
+
+body, html{
+	margin: 0;
+}

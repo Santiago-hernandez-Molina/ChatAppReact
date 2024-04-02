@@ -1,0 +1,21 @@
+.input-bar {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1.8fr 0.2fr;
+	gap: 5px;
+}
+.input-bar input{
+	background: var(--c-light-green);
+	border: none;
+	color: var(--c-dark-green);
+	font-weight: 500;
+	font-size: 15px;
+	font-family: var(--f-quicks);
+	border-radius: 15px;
+	padding-left: 10px;
+}
+
+.input-bar input:focus{
+	border: 0;
+	outline: none
+}

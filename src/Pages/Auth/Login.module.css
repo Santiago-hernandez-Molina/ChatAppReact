@@ -1,0 +1,68 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-30%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: var(--c-white-green);
+}
+.container {
+  font-family: var(--f-quicks);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 5px;
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.container label {
+  font-weight: 500;
+  color: var(--c-light-green);
+}
+.container input {
+  color: var(--c-white-green);
+  background: var(--c-mid-green);
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.container button {
+  margin-top: 15px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  background: var(--c-light-green);
+  color: var(--c-dark-green);
+  font-weight: bold;
+  cursor: pointer;
+}
+.container button:hover:not([disabled]) {
+  background: var(--c-white-green);
+}
+.loading {
+  animation: loading 1.5s linear infinite;
+}
+@media (max-width: 800px) {
+  .container form {
+    width: 90%;
+  }
+}

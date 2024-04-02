@@ -1,0 +1,32 @@
+.list-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid var(--c-mid-green);
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list-item:hover {
+  background: var(--c-mid-green);
+  color: var(--c-white-green);
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+}
+
+.list-item button {
+  margin-left: 5px;
+  height: 30px;
+}
+
+@media (max-width: 800px) {
+  .list-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

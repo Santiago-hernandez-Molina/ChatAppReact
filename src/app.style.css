@@ -1,0 +1,4 @@
+.container-app {
+  min-height: 100vh;
+  background: var(--c-dark-green);
+}

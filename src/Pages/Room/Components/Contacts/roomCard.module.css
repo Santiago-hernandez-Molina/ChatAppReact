@@ -1,0 +1,43 @@
+.card {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 5px;
+	padding: 5px;
+	gap: 3px;
+	border-bottom: 1px solid var(--c-mid-green);
+	text-align: start;
+}
+.card p {
+	margin: 5px;
+	color: var(--c-light-green);
+	font-weight: 600;
+}
+.card:hover{
+	background: var(--c-mid-green);
+	cursor: pointer;
+}
+.card-active{
+	background: var(--c-mid-green);
+}
+.card-active p{
+	color: var(--c-white-green);
+}
+.card:hover p {
+	color: var(--c-white-green);
+}
+
+@media (max-width:800px) {
+	.card {
+		width: 100%;
+		gap: 0;
+	}
+	.card p{
+		margin: 0;
+		border-radius: 5px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 10px;
+		color: var(--c-dark-green);
+		background: var(--c-light-green);
+	}
+}
