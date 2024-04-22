@@ -9,6 +9,7 @@ export type LoginRequest = {
   email: string;
   password: string;
 };
+
 export type Contact = {
   id: number;
   username: string;

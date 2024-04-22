@@ -8,6 +8,6 @@ export type Room = {
 };
 
 export type RoomWithMessages = {
-	room: Room
-	messages: Message[]
-}
+  room: Room;
+  messages: Message[];
+};
